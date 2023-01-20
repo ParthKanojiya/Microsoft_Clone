@@ -18,7 +18,7 @@
         <nav class="main-nav">
             <img src="img/logo.png" class="logo">
 
-            <ul class="main-menu">
+            <ul class="main-menu" id="navigation-menu">
                 <li><a href="#">Office</a></li>
                 <li><a href="#">Windows</a></li>
                 <li><a href="#">Surface</a></li>
@@ -27,19 +27,12 @@
                 <li><a href="#">Support</a></li>
             </ul>
 
-            <!-- <ul class="right-menu">
-                <li><a href="#">
-                        <img src="img/search.svg">
-                    </a></li>
-                <li>
-                    <a href="#"><img src="img/cart.svg"></a>
-                </li>
-            </ul> -->
-
             <ul class="right-menu">
                 <li><img src="img/search.svg"></li>
                 <li><img src="img/cart.svg"></li>
-                <li class="hamburger"><img src="img/menu-icon.svg"></li>
+                <li class="hamburger" onclick="myFunction()">
+                    <img src="img/menu-icon.svg">
+                </li>
             </ul>
         </nav>
 
@@ -261,7 +254,7 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
